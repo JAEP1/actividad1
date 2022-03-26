@@ -37,3 +37,25 @@ text-align: center;
     display: flex;
 
 }
+
+.flex_center{
+    display: 55px;
+    justify-content: center;
+
+}
+
+#fotos_prom{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 90%;
+    margin: 5%;
+    grid-gap: 30px;
+}
+#fotos_prom img{
+    width: 100%;
+    transition: all 300ms;
+    position: relative;
+}
+#fotos_prom img:hover{
+    transform: scale(1.15);
+}
