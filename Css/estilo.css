@@ -1,9 +1,9 @@
 p{
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'Blackadder ITC';
-    color: rgb(0, 0, 0);
-    
+    color: black;
+   
 }
 h1{ 
     text-align: center;
@@ -16,7 +16,7 @@ h1{
 
 .title_design{
     height: 150px;
-    background-color: rgba(255, 136, 0, 0.7);
+    background-color: rgba(255, 136, 0, 0.9);
     display:flex;
     justify-content: center; /* Esto lo centra horizontalmente*/
     align-items: center; /* Esto lo centra verticalmente*/
@@ -30,7 +30,7 @@ text-align: center;
 
 .box_design{
     height: 150px;
-    background-color: rgba(255, 136, 0, 0.7);
+    background-color: rgba(255, 136, 0, 0.9);
     border-radius: 40px;
     justify-content: center; /* Esto lo centra horizontalmente*/
     align-items: center; /* Esto lo centra verticalmente*/
@@ -58,4 +58,9 @@ text-align: center;
 }
 #fotos_prom img:hover{
     transform: scale(1.15);
+}
+
+body{
+    background-repeat: no-repeat;
+    background-position: center;
 }
